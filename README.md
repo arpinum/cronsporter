@@ -4,6 +4,10 @@
 
 Par défaut, l'image planifie une tâche toutes les minutes en invoquant le script `/data/work/task.sh`
 
+### Spécifier le script
+
+L'image cherche le chemin du script dans la variable d'environnement `SCRIPT_PATH`
+
 ### Spécifier la répétition
 L'image cherche le pattern dans la variable d'environnement `PATTERN`
 
